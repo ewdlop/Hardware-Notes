@@ -12,5 +12,4 @@ https://github.com/logisim-evolution/logisim-evolution <--------- free
 
 C++
 
-## Rasberry-Pi
-
+## Raspberry -Pi
