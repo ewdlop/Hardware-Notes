@@ -1,0 +1,4 @@
+.ALIASES
+R_R1            R1(1=N00111 2=0 ) CN @VEXP.SCHEMATIC1(sch_1):INS40@ANALOG.R.Normal(chips)
+V_V1            V1(+=N00111 -=0 ) CN @VEXP.SCHEMATIC1(sch_1):INS75@SOURCE.VEXP.Normal(chips)
+.ENDALIASES

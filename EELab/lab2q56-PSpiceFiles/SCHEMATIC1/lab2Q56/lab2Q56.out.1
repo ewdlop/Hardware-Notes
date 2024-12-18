@@ -1,0 +1,62 @@
+
+**** 10/09/16 23:14:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab2Q56"  [ D:\Cadence\SPB_17.2\tools\bin\Lab2Q56-PSpiceFiles\SCHEMATIC1\lab2Q56.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab2Q56.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Raymond Lei\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 10 20 2 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB2Q56
+V_V1         N00210 N00203   
+I_I1         N00210 N00218  AC 4 
+R_R1         N00218 N00757  1 TC=0,0 
+R_R2         N00392 N00203  2 TC=0,0 
+R_R3         N00392 N01248  1 TC=0,0 
+R_R4         N00392 N00218  2 TC=0,0 
+X_H1    N01248 N00210 N00757 N00203 SCHEMATIC1_H1 
+G_G1         N00757 N00392 N00218 N00757 1.5
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 4
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1
+
+**** RESUMING lab2Q56.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00210 is floating
+
+ERROR(ORPSIM-15142): Node N00203 is floating
+
+ERROR(ORPSIM-15142): Node N00218 is floating
+
+ERROR(ORPSIM-15142): Node N00757 is floating
+
+ERROR(ORPSIM-15142): Node N00392 is floating
+
+ERROR(ORPSIM-15142): Node N01248 is floating
+

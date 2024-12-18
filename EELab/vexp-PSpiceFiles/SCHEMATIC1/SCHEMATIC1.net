@@ -1,0 +1,4 @@
+* source VEXP
+R_R1         N00111 0  1k TC=0,0 
+V_V1         N00111 0  
++EXP 0 5 1p 1p 1p 0.01

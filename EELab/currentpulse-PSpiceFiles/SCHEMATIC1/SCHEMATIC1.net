@@ -1,0 +1,6 @@
+* source CDCF
+R_R1         N00223 0  1k TC=0,0 
+V_V1         N00230 0  
++PULSE 0 -12 0 1p 1p 1 2
+V_V2         N00223 N00230  
++PULSE 0 10 0.001 1p 1p 1 2

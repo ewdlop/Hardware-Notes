@@ -1,0 +1,4 @@
+* source VLINEARP
+V_V1         N00136 0  
++PULSE 0 25000 0 0.05 1p 1 2
+R_R1         N00136 0  1k TC=0,0 

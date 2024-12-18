@@ -1,0 +1,5 @@
+.ALIASES
+I_I1            I1(+=0 -=N00171 ) CN @AV.SCHEMATIC1(sch_1):INS52@SOURCE.IPULSE.Normal(chips)
+I_I2            I2(+=N00171 -=0 ) CN @AV.SCHEMATIC1(sch_1):INS92@SOURCE.IPULSE.Normal(chips)
+R_R1            R1(1=N00171 2=0 ) CN @AV.SCHEMATIC1(sch_1):INS141@ANALOG.R.Normal(chips)
+.ENDALIASES
